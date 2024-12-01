@@ -1,0 +1,7 @@
+day {
+    repeat 2 times {
+        repeat 3 times {
+            logActivity();
+        }
+    }
+}

@@ -1,0 +1,9 @@
+day {
+
+    if tasksCompleted != totalTasks {
+        notifyUser(message="Tasks remaining");
+    }
+    if timeSpent <= totalTime {
+        takeBreak();
+    }
+}
