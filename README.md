@@ -1,6 +1,8 @@
 # DayLanguage
 Linguagem para programar tarefas diárias.
 
+Vídeo: https://youtu.be/pE6zjqpH7S0
+
 ## EBNF 
 DAY = 'day' '{' STATEMENT_LIST '}';
 
