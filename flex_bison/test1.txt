@@ -1,0 +1,18 @@
+day {
+    tasksPending = 1;
+    time = 17;
+
+    checkEmails();
+
+    if tasksPending > 0 {
+        completeTasks(priority="high");
+    }
+
+    repeat 3 times {
+        attendMeeting();
+    }
+    
+    if time < 18 {
+        scheduleNextDay();
+    }
+}
